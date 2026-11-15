@@ -1,0 +1,13 @@
+occupation,applicants,exposure_mn,default_rate_pct,cum_exposure_pct,risk_rank
+Unknown,96391,55360.2,6.51,30.1,13
+Laborers,55186,31490.1,10.58,47.1,5
+Sales staff,32102,18081.7,9.63,57.0,7
+Core staff,27570,17237.4,6.3,66.3,16
+Managers,21371,16564.5,6.21,75.3,17
+Drivers,18603,11391.2,11.33,81.5,2
+High skill tech staff,11380,7316.3,6.16,85.5,18
+Accountants,9813,6964.8,4.83,89.3,19
+Medicine staff,8537,5185.6,6.7,92.1,11
+Security staff,6721,3744.1,10.74,94.1,4
+Cooking staff,5946,3205.9,10.44,95.8,6
+Cleaning staff,4653,2377.5,9.61,97.1,8

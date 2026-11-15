@@ -1,0 +1,82 @@
+# =============================================================================
+# Credit Risk Scoring & Loan Default Prediction: project configuration
+# All paths are relative to the project root.
+# =============================================================================
+
+project:
+  name: "Credit Risk Scoring & Loan Default Prediction"
+  random_state: 42
+
+# Heavy files (Kaggle CSVs, database, features, models) live outside OneDrive in this folder.
+# Delete or blank this line to keep everything inside the project's data/ folders instead.
+work_dir: ~/Downloads/credit-risk-data
+
+paths:
+  raw_data: data/raw            # put the Kaggle CSVs here (override with env CREDIT_RISK_RAW_DIR)
+  interim_data: data/interim
+  processed_data: data/processed
+  database: database/home_credit.db
+  models: models
+  reports: reports
+  figures: reports/figures
+  sql_dir: sql
+
+data:
+  files:
+    application_train: application_train.csv
+    application_test: application_test.csv
+    bureau: bureau.csv
+    bureau_balance: bureau_balance.csv
+    previous_application: previous_application.csv
+    pos_cash_balance: POS_CASH_balance.csv
+    installments_payments: installments_payments.csv
+    credit_card_balance: credit_card_balance.csv
+    columns_description: HomeCredit_columns_description.csv
+  id_column: SK_ID_CURR
+  target: TARGET
+  days_anomaly_value: 365243   # Home Credit placeholder meaning "not applicable"
+
+sql:
+  chunksize: 250000
+  # bureau_balance (27M rows) and installments (13.6M rows) take a few minutes to load.
+  # Set to a list of table keys to skip them during the SQL stage on low-memory machines.
+  skip_tables: []
+
+split:
+  test_size: 0.15     # untouched hold-out, used only for final reporting
+  valid_size: 0.15    # early stopping, calibration and threshold selection
+
+feature_selection:
+  max_missing_rate: 0.95
+  max_dominant_share: 0.995
+  max_correlation: 0.98
+
+modeling:
+  candidates: [logistic_regression, random_forest, xgboost, lightgbm]
+  run_random_forest: true      # optional benchmark; the slowest model on full data
+  primary_metric: roc_auc
+  tuning:
+    enabled: false             # set true for a small random search on LightGBM
+    n_iter: 15
+
+fairness:
+  # Attributes analysed for disparate impact. They are never used to make a decision.
+  protected_attributes: [CODE_GENDER, AGE_GROUP, NAME_FAMILY_STATUS]
+  # Columns excluded from model inputs for responsible-lending reasons (sex and marital status are
+  # prohibited bases under e.g. US ECOA / Reg B). AGE_GROUP is a reporting band only; age itself
+  # (AGE_YEARS) stays in the model and is monitored in notebook 12.
+  exclude_from_model: [CODE_GENDER, NAME_FAMILY_STATUS, AGE_GROUP]
+  air_threshold: 0.80          # four-fifths rule for the adverse impact ratio
+
+business:
+  # Cost assumptions for the cost-sensitive decision framework (document these in interviews).
+  lgd: 0.60                    # loss given default for unsecured consumer credit
+  profit_margin: 0.15          # lifetime net profit on a repaid loan, as a share of AMT_CREDIT
+  refer_band_ratio: 0.70       # applicants with PD between ratio*cutoff and cutoff go to manual review
+
+risk_grades:                   # PD upper bounds for each grade (last grade is open-ended)
+  A: 0.03
+  B: 0.06
+  C: 0.10
+  D: 0.20
+  E: 1.00

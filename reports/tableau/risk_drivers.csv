@@ -1,0 +1,21 @@
+rank,feature,label,source,mean_abs_shap,share_pct
+1,EXT_SOURCE_MEAN,External credit score (average),Application,0.1946858911869595,5.220929757419851
+2,EXT_SOURCE_MIN,External credit score (lowest),Application,0.1495976708120336,4.01179010159089
+3,EXT_SOURCE_MAX,External credit score (highest),Application,0.127954346163853,3.431376816291901
+4,CREDIT_TO_ANNUITY_RATIO,Loan term (credit / annuity),Application,0.1215071647102353,3.258481485780492
+5,YEARS_EMPLOYED,Time in current employment,Application,0.0888430077386271,2.382520376866168
+6,EXT_SOURCE_PROD,External credit scores (combined),Application,0.0800180218732205,2.145858998722104
+7,POS_REMAINING_INSTALMENTS_SUM,Remaining instalments on existing loans,POS / cash loans,0.0783614682226128,2.101434874321047
+8,PREV_CREDIT_TO_APPLICATION_MEAN,Previously granted vs requested amount,Previous applications,0.0777236513353524,2.0843304136630088
+9,NAME_EDUCATION_TYPE,Education level,Application,0.0768278627713822,2.0603078759152806
+10,DOWN_PAYMENT_PROXY,Down payment (goods price minus loan),Application,0.076301592278472,2.046194776809152
+11,ANNUITY_VS_PREVIOUS,Annuity vs previous loans,Application,0.0755431177629909,2.0258546168521216
+12,CREDIT_TO_GOODS_RATIO,Loan amount relative to goods price,Application,0.0712209453910265,1.9099460719857808
+13,OWN_CAR_AGE,Age of owned car,Application,0.0692221951812487,1.8563451952902184
+14,EXT_SOURCE_3,External credit score 3,Application,0.0647732337275638,1.7370365227328852
+15,POS_MONTHS,Months of POS loan history,POS / cash loans,0.0606161830663394,1.6255560791939858
+16,EXT_SOURCE_2,External credit score 2,Application,0.0574720243418541,1.541238557535712
+17,INST_LATE_RATE,Share of past instalments paid late,Instalment payments,0.0570058044353428,1.52873584679193
+18,INST_LATE_RATE_RECENT,Late payments in the last 12 months,Instalment payments,0.0569786737047755,1.5280082766650145
+19,EXT_SOURCE_1,External credit score 1,Application,0.0569592241099063,1.5274866930617883
+20,AGE_YEARS,Applicant age,Application,0.0565111917108713,1.5154717202758892

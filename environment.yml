@@ -1,0 +1,30 @@
+# Built from Anaconda's own "defaults" channel: its packages are trusted by Windows Smart App Control /
+# Application Control policies, which can block DLLs from other channels (e.g. conda-forge).
+name: credit-risk
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pandas
+  - numpy
+  - pyarrow
+  - scikit-learn
+  - py-xgboost
+  - lightgbm
+  - shap
+  - matplotlib
+  - seaborn
+  - plotly
+  - streamlit
+  - jupyterlab
+  - ipykernel
+  - nbformat
+  - nbclient
+  - pyyaml
+  - joblib
+  - pytest
+  - pip:
+      - fairlearn
+      - kaggle
+      - -e .

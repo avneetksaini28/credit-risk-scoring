@@ -1,0 +1,9 @@
+table,rows,columns,memory_mb,cols_with_missing,avg_missing_pct,grain
+application_train,307511,122,167.1,67,24.4,One row per current loan application (with TARGET). Grain: SK_ID_CURR.
+application_test,48744,121,26.4,64,23.8,"One row per current loan application (no TARGET, Kaggle scoring set)."
+bureau,1716428,17,85.1,7,13.5,Client's previous credits at OTHER institutions reported to the Credit Bureau. Grain: SK_ID_BUREAU.
+bureau_balance,27299925,3,156.2,0,0.0,Monthly status of each bureau credit. Grain: SK_ID_BUREAU x MONTHS_BALANCE.
+previous_application,1670214,37,146.5,16,18.0,Previous applications to Home Credit. Grain: SK_ID_PREV.
+pos_cash_balance,10001358,8,209.8,2,0.1,Monthly snapshots of previous POS / cash loans at Home Credit. Grain: SK_ID_PREV x MONTHS_BALANCE.
+installments_payments,13605401,8,389.3,2,0.0,Repayment history of previous Home Credit loans. Grain: one row per payment.
+credit_card_balance,3840312,23,293.0,9,6.7,Monthly snapshots of previous Home Credit credit cards. Grain: SK_ID_PREV x MONTHS_BALANCE.

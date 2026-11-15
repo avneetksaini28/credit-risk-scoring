@@ -1,0 +1,243 @@
+feature,source,missing_pct
+NAME_CONTRACT_TYPE,application (raw),0.0
+CODE_GENDER,application (raw),0.0
+FLAG_OWN_CAR,application (raw),0.0
+FLAG_OWN_REALTY,application (raw),0.0
+CNT_CHILDREN,application (raw),0.0
+AMT_INCOME_TOTAL,application (raw),0.0
+AMT_CREDIT,application (raw),0.0
+AMT_ANNUITY,application (raw),0.0
+AMT_GOODS_PRICE,application (raw),0.1
+NAME_TYPE_SUITE,application (raw),0.4
+NAME_INCOME_TYPE,application (raw),0.0
+NAME_EDUCATION_TYPE,application (raw),0.0
+NAME_FAMILY_STATUS,application (raw),0.0
+NAME_HOUSING_TYPE,application (raw),0.0
+REGION_POPULATION_RELATIVE,application (raw),0.0
+OWN_CAR_AGE,application (raw),66.0
+FLAG_MOBIL,application (raw),0.0
+FLAG_EMP_PHONE,application (raw),0.0
+FLAG_WORK_PHONE,application (raw),0.0
+FLAG_CONT_MOBILE,application (raw),0.0
+FLAG_PHONE,application (raw),0.0
+FLAG_EMAIL,application (raw),0.0
+OCCUPATION_TYPE,application (raw),31.3
+CNT_FAM_MEMBERS,application (raw),0.0
+REGION_RATING_CLIENT,application (raw),0.0
+REGION_RATING_CLIENT_W_CITY,application (raw),0.0
+WEEKDAY_APPR_PROCESS_START,application (raw),0.0
+HOUR_APPR_PROCESS_START,application (raw),0.0
+REG_REGION_NOT_LIVE_REGION,application (raw),0.0
+REG_REGION_NOT_WORK_REGION,application (raw),0.0
+LIVE_REGION_NOT_WORK_REGION,application (raw),0.0
+REG_CITY_NOT_LIVE_CITY,application (raw),0.0
+REG_CITY_NOT_WORK_CITY,application (raw),0.0
+LIVE_CITY_NOT_WORK_CITY,application (raw),0.0
+ORGANIZATION_TYPE,application (raw),0.0
+EXT_SOURCE_1,application (raw),56.4
+EXT_SOURCE_2,application (raw),0.2
+EXT_SOURCE_3,application (raw),19.8
+APARTMENTS_AVG,application (raw),50.7
+BASEMENTAREA_AVG,application (raw),58.5
+YEARS_BEGINEXPLUATATION_AVG,application (raw),48.8
+YEARS_BUILD_AVG,application (raw),66.5
+COMMONAREA_AVG,application (raw),69.9
+ELEVATORS_AVG,application (raw),53.3
+ENTRANCES_AVG,application (raw),50.3
+FLOORSMAX_AVG,application (raw),49.8
+FLOORSMIN_AVG,application (raw),67.8
+LANDAREA_AVG,application (raw),59.4
+LIVINGAPARTMENTS_AVG,application (raw),68.4
+LIVINGAREA_AVG,application (raw),50.2
+NONLIVINGAPARTMENTS_AVG,application (raw),69.4
+NONLIVINGAREA_AVG,application (raw),55.2
+APARTMENTS_MODE,application (raw),50.7
+BASEMENTAREA_MODE,application (raw),58.5
+YEARS_BEGINEXPLUATATION_MODE,application (raw),48.8
+YEARS_BUILD_MODE,application (raw),66.5
+COMMONAREA_MODE,application (raw),69.9
+ELEVATORS_MODE,application (raw),53.3
+ENTRANCES_MODE,application (raw),50.3
+FLOORSMAX_MODE,application (raw),49.8
+FLOORSMIN_MODE,application (raw),67.8
+LANDAREA_MODE,application (raw),59.4
+LIVINGAPARTMENTS_MODE,application (raw),68.4
+LIVINGAREA_MODE,application (raw),50.2
+NONLIVINGAPARTMENTS_MODE,application (raw),69.4
+NONLIVINGAREA_MODE,application (raw),55.2
+APARTMENTS_MEDI,application (raw),50.7
+BASEMENTAREA_MEDI,application (raw),58.5
+YEARS_BEGINEXPLUATATION_MEDI,application (raw),48.8
+YEARS_BUILD_MEDI,application (raw),66.5
+COMMONAREA_MEDI,application (raw),69.9
+ELEVATORS_MEDI,application (raw),53.3
+ENTRANCES_MEDI,application (raw),50.3
+FLOORSMAX_MEDI,application (raw),49.8
+FLOORSMIN_MEDI,application (raw),67.8
+LANDAREA_MEDI,application (raw),59.4
+LIVINGAPARTMENTS_MEDI,application (raw),68.4
+LIVINGAREA_MEDI,application (raw),50.2
+NONLIVINGAPARTMENTS_MEDI,application (raw),69.4
+NONLIVINGAREA_MEDI,application (raw),55.2
+FONDKAPREMONT_MODE,application (raw),68.4
+HOUSETYPE_MODE,application (raw),50.2
+TOTALAREA_MODE,application (raw),48.3
+WALLSMATERIAL_MODE,application (raw),50.8
+EMERGENCYSTATE_MODE,application (raw),47.4
+OBS_30_CNT_SOCIAL_CIRCLE,application (raw),0.3
+DEF_30_CNT_SOCIAL_CIRCLE,application (raw),0.3
+OBS_60_CNT_SOCIAL_CIRCLE,application (raw),0.3
+DEF_60_CNT_SOCIAL_CIRCLE,application (raw),0.3
+FLAG_DOCUMENT_2,application (raw),0.0
+FLAG_DOCUMENT_3,application (raw),0.0
+FLAG_DOCUMENT_4,application (raw),0.0
+FLAG_DOCUMENT_5,application (raw),0.0
+FLAG_DOCUMENT_6,application (raw),0.0
+FLAG_DOCUMENT_7,application (raw),0.0
+FLAG_DOCUMENT_8,application (raw),0.0
+FLAG_DOCUMENT_9,application (raw),0.0
+FLAG_DOCUMENT_10,application (raw),0.0
+FLAG_DOCUMENT_11,application (raw),0.0
+FLAG_DOCUMENT_12,application (raw),0.0
+FLAG_DOCUMENT_13,application (raw),0.0
+FLAG_DOCUMENT_14,application (raw),0.0
+FLAG_DOCUMENT_15,application (raw),0.0
+FLAG_DOCUMENT_16,application (raw),0.0
+FLAG_DOCUMENT_17,application (raw),0.0
+FLAG_DOCUMENT_18,application (raw),0.0
+FLAG_DOCUMENT_19,application (raw),0.0
+FLAG_DOCUMENT_20,application (raw),0.0
+FLAG_DOCUMENT_21,application (raw),0.0
+AMT_REQ_CREDIT_BUREAU_HOUR,application (raw),13.5
+AMT_REQ_CREDIT_BUREAU_DAY,application (raw),13.5
+AMT_REQ_CREDIT_BUREAU_WEEK,application (raw),13.5
+AMT_REQ_CREDIT_BUREAU_MON,application (raw),13.5
+AMT_REQ_CREDIT_BUREAU_QRT,application (raw),13.5
+AMT_REQ_CREDIT_BUREAU_YEAR,application (raw),13.5
+FLAG_DAYS_EMPLOYED_ANOM,application (raw),0.0
+AGE_YEARS,application (engineered),0.0
+AGE_GROUP,application (engineered),0.0
+YEARS_EMPLOYED,application (engineered),18.0
+YEARS_REGISTRATION,application (engineered),0.0
+YEARS_ID_PUBLISH,application (engineered),0.0
+YEARS_SINCE_PHONE_CHANGE,application (engineered),0.0
+EMPLOYED_TO_AGE_RATIO,application (engineered),18.0
+CREDIT_TO_INCOME_RATIO,application (engineered),0.0
+ANNUITY_TO_INCOME_RATIO,application (engineered),0.0
+CREDIT_TO_ANNUITY_RATIO,application (engineered),0.0
+CREDIT_TO_GOODS_RATIO,application (engineered),0.1
+DOWN_PAYMENT_PROXY,application (engineered),0.1
+INCOME_PER_FAMILY_MEMBER,application (engineered),0.0
+INCOME_AFTER_ANNUITY,application (engineered),0.0
+EXT_SOURCE_MEAN,application (engineered),0.1
+EXT_SOURCE_MIN,application (engineered),0.1
+EXT_SOURCE_MAX,application (engineered),0.1
+EXT_SOURCE_STD,application (engineered),12.0
+EXT_SOURCE_PROD,application (engineered),64.4
+EXT_SOURCE_NAN_COUNT,application (engineered),0.0
+DOCUMENT_COUNT,application (engineered),0.0
+CONTACT_FLAG_COUNT,application (engineered),0.0
+BUREAU_ENQUIRIES_TOTAL,bureau + bureau_balance,13.5
+SOCIAL_CIRCLE_DEFAULT_RATE_30,application (engineered),53.6
+BUREAU_LOAN_COUNT,bureau + bureau_balance,0.0
+BUREAU_IS_ACTIVE_SUM,bureau + bureau_balance,14.3
+BUREAU_IS_ACTIVE_MEAN,bureau + bureau_balance,14.3
+BUREAU_IS_CLOSED_SUM,bureau + bureau_balance,14.3
+BUREAU_IS_BAD_DEBT_SUM,bureau + bureau_balance,14.3
+BUREAU_IS_OVERDUE_SUM,bureau + bureau_balance,14.3
+BUREAU_OPENED_LAST_YEAR_SUM,bureau + bureau_balance,14.3
+BUREAU_DAYS_CREDIT_MEAN,bureau + bureau_balance,14.3
+BUREAU_DAYS_CREDIT_ENDDATE_MAX,bureau + bureau_balance,15.5
+BUREAU_CREDIT_DAY_OVERDUE_MAX,bureau + bureau_balance,14.3
+BUREAU_CREDIT_DAY_OVERDUE_MEAN,bureau + bureau_balance,14.3
+BUREAU_AMT_CREDIT_MAX_OVERDUE_MAX,bureau + bureau_balance,40.2
+BUREAU_CNT_CREDIT_PROLONG_SUM,bureau + bureau_balance,14.3
+BUREAU_AMT_CREDIT_SUM_SUM,bureau + bureau_balance,14.3
+BUREAU_AMT_CREDIT_SUM_MEAN,bureau + bureau_balance,14.3
+BUREAU_AMT_CREDIT_SUM_MAX,bureau + bureau_balance,14.3
+BUREAU_AMT_CREDIT_SUM_DEBT_SUM,bureau + bureau_balance,14.3
+BUREAU_AMT_CREDIT_SUM_DEBT_MEAN,bureau + bureau_balance,16.7
+BUREAU_AMT_CREDIT_SUM_OVERDUE_SUM,bureau + bureau_balance,14.3
+BUREAU_ACTIVE_DEBT_SUM,bureau + bureau_balance,14.3
+BUREAU_ACTIVE_CREDIT_SUM,bureau + bureau_balance,14.3
+BUREAU_CARD_DEBT_SUM,bureau + bureau_balance,14.3
+BUREAU_CARD_LIMIT_SUM,bureau + bureau_balance,14.3
+BUREAU_ENDDATE_GAP_MEAN,bureau + bureau_balance,25.6
+BUREAU_ENDDATE_GAP_MAX,bureau + bureau_balance,25.6
+BUREAU_CREDIT_TYPE_NUNIQUE,bureau + bureau_balance,14.3
+BUREAU_BB_MONTHS_MEAN,bureau + bureau_balance,70.0
+BUREAU_BB_MONTHS_MAX,bureau + bureau_balance,70.0
+BUREAU_BB_DPD_RATE_MEAN,bureau + bureau_balance,70.0
+BUREAU_BB_DPD_RATE_MAX,bureau + bureau_balance,70.0
+BUREAU_BB_DPD60_COUNT_SUM,bureau + bureau_balance,14.3
+BUREAU_BB_MAX_DPD_BUCKET_MEAN,bureau + bureau_balance,70.8
+BUREAU_BB_MAX_DPD_BUCKET_MAX,bureau + bureau_balance,70.8
+BUREAU_BB_RECENT_DPD_MEAN,bureau + bureau_balance,70.0
+BUREAU_BB_RECENT_DPD_MAX,bureau + bureau_balance,70.0
+BUREAU_CREDIT_HISTORY_YEARS,bureau + bureau_balance,14.3
+BUREAU_YEARS_SINCE_LAST_CREDIT,bureau + bureau_balance,14.3
+BUREAU_ACTIVE_DEBT_TO_CREDIT,bureau + bureau_balance,30.4
+BUREAU_CARD_UTILIZATION,bureau + bureau_balance,54.4
+BUREAU_OVERDUE_TO_DEBT,bureau + bureau_balance,39.8
+PREV_APP_COUNT,previous_application,0.0
+PREV_APPROVED_COUNT,previous_application,5.4
+PREV_REFUSED_COUNT,previous_application,5.4
+PREV_CANCELED_COUNT,previous_application,5.4
+PREV_APPROVAL_RATE,previous_application,5.4
+PREV_REFUSAL_RATE,previous_application,5.4
+PREV_RECENT_APP_COUNT,previous_application,5.4
+PREV_RECENT_REFUSED,previous_application,5.4
+PREV_AMT_APPLICATION_MEAN,previous_application,5.4
+PREV_AMT_CREDIT_MEAN,previous_application,5.4
+PREV_AMT_CREDIT_MAX,previous_application,5.4
+PREV_AMT_ANNUITY_MEAN,previous_application,5.5
+PREV_CREDIT_TO_APPLICATION_MEAN,previous_application,5.7
+PREV_CREDIT_TO_APPLICATION_MIN,previous_application,5.7
+PREV_AMT_DOWN_PAYMENT_MEAN,previous_application,11.0
+PREV_RATE_DOWN_PAYMENT_MEAN,previous_application,11.0
+PREV_CNT_PAYMENT_MEAN,previous_application,5.5
+PREV_DAYS_DECISION_MEAN,previous_application,5.4
+PREV_PRODUCT_TYPES,previous_application,5.4
+PREV_YEARS_SINCE_LAST_APP,previous_application,5.4
+PREV_YEARS_SINCE_LAST_REFUSAL,previous_application,67.4
+INST_COUNT,installments_payments,0.0
+INST_LATE_COUNT,installments_payments,5.2
+INST_LATE_RATE,installments_payments,5.2
+INST_LATE_30_COUNT,installments_payments,5.2
+INST_DAYS_LATE_MEAN,installments_payments,5.2
+INST_DAYS_LATE_MAX,installments_payments,5.2
+INST_DAYS_EARLY_MEAN,installments_payments,5.2
+INST_PAYMENT_RATIO_MEAN,installments_payments,5.2
+INST_PAYMENT_RATIO_MIN,installments_payments,5.2
+INST_UNDERPAID_RATE,installments_payments,5.2
+INST_SHORTFALL_SUM,installments_payments,5.2
+INST_LATE_RATE_RECENT,installments_payments,29.3
+INST_DAYS_LATE_RECENT_MAX,installments_payments,29.3
+INST_AMT_PAYMENT_SUM,installments_payments,5.2
+POS_MONTHS,POS_CASH_balance,0.0
+POS_LOANS,POS_CASH_balance,5.9
+POS_DPD_MAX,POS_CASH_balance,5.9
+POS_DPD_MEAN,POS_CASH_balance,5.9
+POS_DPD_RATE,POS_CASH_balance,5.9
+POS_DPD_DEF_MAX,POS_CASH_balance,5.9
+POS_DPD_DEF_RATE,POS_CASH_balance,5.9
+POS_COMPLETED_COUNT,POS_CASH_balance,5.9
+POS_INSTALMENT_TERM_MEAN,POS_CASH_balance,5.9
+POS_REMAINING_INSTALMENTS_SUM,POS_CASH_balance,5.9
+POS_ACTIVE_LOANS,POS_CASH_balance,5.9
+CC_MONTHS,credit_card_balance,0.0
+CC_CARDS,credit_card_balance,71.7
+CC_UTILIZATION_MEAN,credit_card_balance,72.0
+CC_UTILIZATION_MAX,credit_card_balance,72.0
+CC_UTILIZATION_RECENT,credit_card_balance,77.9
+CC_BALANCE_MEAN,credit_card_balance,71.7
+CC_LIMIT_MEAN,credit_card_balance,71.7
+CC_PAYMENT_TO_MIN_MEAN,credit_card_balance,80.7
+CC_MISSED_MIN_RATE,credit_card_balance,71.7
+CC_DPD_MAX,credit_card_balance,71.7
+CC_DPD_RATE,credit_card_balance,71.7
+CC_ATM_SHARE_MEAN,credit_card_balance,80.6
+CC_DRAWINGS_COUNT_MEAN,credit_card_balance,71.7
+TOTAL_DEBT_TO_INCOME,application (engineered),0.0
+ANNUITY_VS_PREVIOUS,application (engineered),5.5
+THIN_FILE,application (engineered),0.0

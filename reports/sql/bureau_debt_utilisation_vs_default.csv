@@ -1,0 +1,6 @@
+debt_utilisation_band,applicants,default_rate_pct
+0. no active credit,93440,7.79
+1. <25%,56648,6.15
+2. 25-50%,35184,6.71
+3. 50-75%,51052,7.59
+4. 75%+,71187,11.0

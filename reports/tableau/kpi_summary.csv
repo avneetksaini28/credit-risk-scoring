@@ -1,0 +1,2 @@
+applicants,actual_default_rate,mean_predicted_pd,approval_rate,bad_rate_of_approved,decline_cutoff,auto_approve_below,break_even_pd,roc_auc,gini,ks,pr_auc,credit_losses_avoided_pct,profit_uplift_vs_approve_all_pct,champion_model
+46127,0.08073362672621241,0.08074098978587996,0.9055433910724738,0.0557337802250419,0.21,0.147,0.19999999999999998,0.7923088148643193,0.5846176297286385,0.4445669870702307,0.2944126215003048,0.3363402749469111,0.0748077226359547,lightgbm
