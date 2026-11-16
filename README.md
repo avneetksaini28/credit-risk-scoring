@@ -184,7 +184,22 @@ The under-25 group sits right at the four-fifths threshold. Two further tests sh
 - **Tableau Public (no install needed):** [open the live dashboard](https://public.tableau.com/app/profile/avneet.saini3393/viz/CreditRiskScoringLoanDefaultPrediction/Lendingdecisions). It has two views: *Lending decisions* (KPIs, decision mix, risk grades and an interactive PD-cutoff slider) and *Model and fairness* (SHAP drivers, decile lift, model comparison, segment and fairness analysis). Built from the aggregated files in `reports/tableau/` (`python scripts/export_tableau.py`). No row-level applicant data is published.
 - **Streamlit app (run locally):** `streamlit run app/streamlit_app.py` for applicant-level scoring, reason codes, what-if analysis and counter-offers.
 
-<!-- Dashboard screenshots -->
+**Tableau Public dashboard** ([open live](https://public.tableau.com/app/profile/avneet.saini3393/viz/CreditRiskScoringLoanDefaultPrediction/Lendingdecisions))
+
+![Tableau dashboard: lending decisions](reports/figures/tableau_dashboard.png)
+
+**Streamlit app: portfolio overview**
+
+![Streamlit portfolio overview](reports/figures/streamlit_overview.jpg)
+
+**Streamlit app: scoring one applicant (PD gauge, risk grade, expected loss and recommendation)**
+
+![Streamlit applicant scoring](reports/figures/streamlit_applicant.jpg)
+
+**Streamlit app: reason codes for the same applicant (SHAP contributions and principal reasons)**
+
+![Streamlit reason codes](reports/figures/streamlit_reasons.jpg)
+
 
 ## 7. Key design decisions
 
